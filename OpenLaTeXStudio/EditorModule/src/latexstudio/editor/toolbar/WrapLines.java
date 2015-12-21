@@ -8,7 +8,6 @@ package latexstudio.editor.toolbar;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 import latexstudio.editor.EditorTopComponent;
-import org.openide.cookies.EditorCookie;
 import org.openide.awt.ActionID;
 import org.openide.awt.ActionReference;
 import org.openide.awt.ActionRegistration;
