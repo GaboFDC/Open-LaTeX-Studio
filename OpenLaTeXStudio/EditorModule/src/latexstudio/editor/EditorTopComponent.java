@@ -327,4 +327,12 @@ public final class EditorTopComponent extends TopComponent {
 
         return provider;
     }
+
+    public void wrapLines() {
+        if (rSyntaxTextArea.getLineWrap()) {
+            rSyntaxTextArea.setLineWrap(false);
+        }else{
+            rSyntaxTextArea.setLineWrap(true);
+        }
+    }
 }
